@@ -1,0 +1,24 @@
+.dButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.update__button,
+.delete__button {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.update__button:hover {
+  color: rgb(41, 255, 41);
+}
+.delete__button:hover {
+  color: red;
+}
+/* .button__dilog {
+  position: absolute;
+  top: 0;
+} */
